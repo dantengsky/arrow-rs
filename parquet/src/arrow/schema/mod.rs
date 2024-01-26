@@ -43,7 +43,7 @@ pub mod complex;
 mod primitive;
 
 use crate::arrow::ProjectionMask;
-//pub use complex::{ParquetField, ParquetFieldType};
+pub use complex::{ParquetField, ParquetFieldType};
 
 /// Convert Parquet schema to Arrow schema including optional metadata
 ///
